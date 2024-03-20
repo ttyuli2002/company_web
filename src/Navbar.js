@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
   return (
-  <Navbar class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <Navbar bg="dark" data-bs-theme="dark">
     <Container fluid>
       <Navbar.Brand href="/" className='d-flex align-items-center"'>
         <a class="navbar-brand d-flex align-items-center" href="/">
@@ -24,11 +24,11 @@ const NavBar = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='NavScroll' data-bs-target="#NavScroll" />
       <Navbar.Collapse id='NavScroll'>
-        <Nav>
+        <Nav className= 'ms-4 fs-1 d-flex justify-content-evenly' style={{ width: '100%' }}>
           <Nav.Link as={Link} to="/" exact>
               Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/about">
+          <Nav.Link as={Link} to="/About">
               About
           </Nav.Link>
           <Nav.Link as={Link} to="/Contact">
@@ -36,7 +36,6 @@ const NavBar = () => {
           </Nav.Link>
         </Nav>        
       </Navbar.Collapse>
-
     </Container>
   </Navbar>
   );
