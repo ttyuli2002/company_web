@@ -7,7 +7,8 @@ import {
 } from "react-router-dom";
 import Home from "./Component/Home";
 import About from "./Component/About";
-import Contact from './Component/Contact'
+import Product from './Component/Product';
+import Contact from './Component/Contact';
 
 const All_Routes = () => {
   return (
@@ -16,6 +17,7 @@ const All_Routes = () => {
           <Route index element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Product" element={<Product />} />
       </Route>
     </Routes>
   );

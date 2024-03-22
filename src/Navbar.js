@@ -26,13 +26,16 @@ const NavBar = () => {
       <Navbar.Collapse id='NavScroll'>
         <Nav className= 'ms-4 fs-1 d-flex justify-content-evenly' style={{ width: '100%' }}>
           <Nav.Link as={Link} to="/" exact>
-              Home
+            Home
           </Nav.Link>
           <Nav.Link as={Link} to="/About">
-              About
+            About
+          </Nav.Link>
+          <Nav.Link as={Link} to="/Product">
+            Product
           </Nav.Link>
           <Nav.Link as={Link} to="/Contact">
-              Contact
+            Contact
           </Nav.Link>
         </Nav>        
       </Navbar.Collapse>
