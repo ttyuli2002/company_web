@@ -1,0 +1,23 @@
+.carousel-caption {
+    color: black;
+    font-size: 5rem;
+    right: 58%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    /*top: auto;*/
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.carousel-caption h1 {
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.carousel-caption p {
+    white-space: nowrap;
+    font-size: 2.5rem;
+}
