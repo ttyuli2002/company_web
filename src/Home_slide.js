@@ -22,8 +22,8 @@ function ControlledCarousel() {
       />
       <Carousel.Caption>
         <h1>L4级无人驾驶技术</h1>
-        <p>不只专注解决泊车难题</p>
-        <p>更亦在解决高速公路的自动驾驶</p>
+        <p>视觉感知 - 不只专注解决泊车难题</p>
+        <p>亦在解决高速公路的自动驾驶</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={5000}> 
