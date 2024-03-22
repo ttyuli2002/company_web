@@ -16,7 +16,8 @@ function ControlledCarousel() {
     setIndex(selectedIndex);} 
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}> 
+  <div className="carousel-container">
+  <Carousel activeIndex={index} onSelect={handleSelect}> 
     <Carousel.Item interval={5000}> 
       <Link to="/Product">
         <img className='d-block w-100 shadow-2-strong'
@@ -56,6 +57,8 @@ function ControlledCarousel() {
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
+  <hr className="white-line" />
+  </div>
   );
 }
 
