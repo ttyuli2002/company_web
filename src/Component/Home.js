@@ -1,8 +1,10 @@
 import React from "react";
+import Slide from '../Home_slide';
+
 const Home = () => {
   return (
     <div>
-      <h1>Homeaaaaaaaaaa</h1>
+      <Slide />
     </div>
   );
 }
