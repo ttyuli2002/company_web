@@ -21,9 +21,8 @@ function ControlledCarousel() {
         height="1200"
       />
       <Carousel.Caption>
-        <h1>L4级无人驾驶技术</h1>
-        <p>视觉感知 - 不只专注解决泊车难题</p>
-        <p>亦在解决高速公路的自动驾驶</p>
+        <h1>智能驾驶不再难以负担</h1>
+        <p>致力于打造人人都能负担的智能驾驶品牌</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={5000}> 
@@ -33,8 +32,9 @@ function ControlledCarousel() {
         height="1200"
       />
       <Carousel.Caption>
-        <h1>Temp Text Slide 2</h1>
-        
+        <h1>十年深耕，精益求精</h1>
+        <p>由 武汉大学动态感知实验室 研制，采用最前端技术</p>
+        <p>智能融合传感器, 视觉感知方向, 地图定位方向, 决策规划算法, 端到端大模型</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={5000}> 
@@ -44,8 +44,8 @@ function ControlledCarousel() {
         height="1200"
       />
       <Carousel.Caption>
-        <h1>Temp Text Slide 3</h1>
-        <p>What's the diff between fonts?</p>
+        <h1>注重体验，追求卓越</h1>
+        <p>反复实验只为打造最舒适的环境，最安全的操作</p>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel> 
