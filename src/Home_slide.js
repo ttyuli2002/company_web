@@ -1,8 +1,8 @@
 import './CSS/Home_slide.css';
 import { useState } from 'react';
-import About from './Component/About';
+import About from './About';
 import { Link } from "react-router-dom";
-import Product from './Component/Product';
+import Product from './Product';
 import 'bootstrap/dist/css/bootstrap.css'; 
 import Slide_bg1 from './Assets/Slide_bg01.png';
 import Slide_bg2 from './Assets/Slide_bg02.jpg';

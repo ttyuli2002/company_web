@@ -1,4 +1,4 @@
-import logo from './Assets/logo.png';
+import logo from '../Assets/logo.png';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import {
   BrowserRouter as Router, Link } from "react-router-dom";

@@ -5,10 +5,10 @@ import {
   Routes,
   Outlet,
 } from "react-router-dom";
-import Home from "./Component/Home";
-import About from "./Component/About";
-import Product from './Component/Product';
-import Contact from './Component/Contact';
+import Home from "./Home";
+import About from "./About";
+import Product from './Product';
+import Contact from './Contact';
 
 const All_Routes = () => {
   return (
