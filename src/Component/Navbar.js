@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
   return (
-  <Navbar bg="dark" data-bs-theme="dark">
+  <Navbar bg="dark" data-bs-theme="dark" sticky="top">
     <Container fluid>
       <Navbar.Brand href="/" className='d-flex align-items-center"'>
         <a class="navbar-brand d-flex align-items-center" href="/">
@@ -14,17 +14,17 @@ const NavBar = () => {
           alt="company logo"
           src= {logo}
           width="auto"
-          height="100"
+          height="40"
           className="d-inline-block align-top"
         />
-        <span class="mx-2 h1">
+        <span class="mx-2 h3">
           紫道弘益
         </span>
         </a>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='NavScroll' data-bs-target="#NavScroll" />
       <Navbar.Collapse id='NavScroll'>
-        <Nav className= 'ms-4 fs-1 d-flex justify-content-evenly' style={{ width: '100%' }}>
+        <Nav className= 'ms-4 fs-4 d-flex justify-content-evenly' style={{ width: '100%' }}>
           <Nav.Link as={Link} to="/" exact>
             Home
           </Nav.Link>
