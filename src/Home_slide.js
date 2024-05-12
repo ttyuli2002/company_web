@@ -23,7 +23,7 @@ function ControlledCarousel() {
         <img className='d-block w-100 shadow-2-strong'
           src= {Slide_bg1}
           alt="slide_bg01" 
-          height="1200"
+          height="800"
         />
       <Carousel.Caption>
         <h1>智能驾驶不再难以负担</h1>
@@ -36,7 +36,7 @@ function ControlledCarousel() {
         <img className='d-block w-100 shadow-2-strong'
           src= {Slide_bg2}
           alt="slide_bg02" 
-          height="1200"
+          height="800"
         />
         <Carousel.Caption>
           <h1>十年深耕，精益求精</h1>
@@ -49,7 +49,7 @@ function ControlledCarousel() {
       <img className='d-block w-100 shadow-2-strong'
         src= {Slide_bg3}
         alt="slide_bg03" 
-        height="1200"
+        height="800"
       />
       <Carousel.Caption>
         <h1>注重体验，追求卓越</h1>
